@@ -1,5 +1,5 @@
 h1 {
-  color: #d4737a;
+  color: #d47379;
   font-family: "Noto Sans Display", sans-serif;
   font-size: 92px;
   font-weight: bold;
@@ -20,11 +20,24 @@ h5 {
   font-family: "Imprima", sans-serif;
 }
 
-.portfolio-greeting {
+.logo {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav {
+  color: #d47379;
+  font-family: "Imprima", sans-serif;
+}
+
+.landing-page-container {
   background-color: #d9ddd3;
+  border: white solid 20px;
+}
+
+.portfolio-greeting {
   padding: 150px 176px 300px 176px;
   margin: 0;
-  border: white solid 20px;
 }
 
 .contact {
