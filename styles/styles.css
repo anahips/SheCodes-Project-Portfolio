@@ -1,4 +1,41 @@
 h1 {
-  color: aqua;
+  color: #d4737a;
   font-family: "Noto Sans Display", sans-serif;
+  font-size: 92px;
+  font-weight: bold;
+}
+
+h4 {
+  color: #393d3a;
+  opacity: 0.8;
+  font-size: 33px;
+  font-family: "Imprima", sans-serif;
+}
+
+p,
+h5 {
+  color: #393d3a;
+  opacity: 0.8;
+  font-size: 18px;
+  font-family: "Imprima", sans-serif;
+}
+
+.portfolio-greeting {
+  background-color: #d9ddd3;
+  padding: 150px 176px 300px 176px;
+  margin: 0;
+  border: white solid 20px;
+}
+
+.contact {
+  margin-top: 40px;
+}
+
+#contact-button {
+  color: white;
+  background-color: #d4737a;
+  opacity: 0.8;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 4px;
 }
