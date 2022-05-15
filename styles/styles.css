@@ -15,7 +15,6 @@ h4 {
   letter-spacing: 5px;
 }
 
-p,
 h5 {
   color: #393d3a;
   opacity: 0.8;
@@ -72,4 +71,10 @@ h5 {
   border: #d4737a solid 1px 0.8;
   text-decoration: none;
   border-radius: 4px;
+}
+
+#profile-picture {
+    border-radius: 100%;
+    padding: 0;
+}
 }
