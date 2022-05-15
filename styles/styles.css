@@ -3,6 +3,7 @@ h1 {
   font-family: "Noto Sans Display", sans-serif;
   font-size: 92px;
   font-weight: bold;
+  letter-spacing: 3px;
 }
 
 h4 {
@@ -20,14 +21,28 @@ h5 {
   font-family: "Imprima", sans-serif;
 }
 
+h5 {
+  line-height: 15px;
+}
+
 .logo {
   margin: 0;
   padding: 0;
 }
 
 .navbar-nav {
-  color: #d47379;
   font-family: "Imprima", sans-serif;
+}
+
+#home-link:hover {
+  color: #d47379;
+}
+#projects-link:hover {
+  color: #d47379;
+}
+
+#contact-link:hover {
+  color: #d47379;
 }
 
 .landing-page-container {
@@ -41,14 +56,16 @@ h5 {
 }
 
 .contact {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 #contact-button {
   color: white;
   background-color: #d4737a;
   opacity: 0.8;
-  padding: 10px 15px;
+  font-family: "Imprima", sans-serif;
+  padding: 12px 18px;
+  border: #d4737a solid 1px 0.8;
   text-decoration: none;
   border-radius: 4px;
 }
