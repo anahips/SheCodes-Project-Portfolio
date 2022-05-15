@@ -12,7 +12,7 @@ h2 {
   color: #d47379;
   font-size: 35px;
   letter-spacing: 8px;
-  margin-top: 40px;
+  margin: 60px 0 40px 0;
 }
 
 h4 {
@@ -67,15 +67,22 @@ h5 {
   margin-top: 60px;
 }
 
-#contact-button {
-  color: white;
-  background-color: #d4737a;
+.fa-instagram,
+.fa-linkedin,
+.fa-envelope {
+  color: #d47379;
+  padding: 15px;
+}
+
+.fa-instagram {
+  padding-left: 0;
+}
+
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.fa-envelope:hover {
+  color: #393d3a;
   opacity: 0.8;
-  font-family: "Imprima", sans-serif;
-  padding: 12px 18px;
-  border: #d4737a solid 1px 0.8;
-  text-decoration: none;
-  border-radius: 4px;
 }
 
 #profile-picture {
