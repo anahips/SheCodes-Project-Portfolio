@@ -11,7 +11,8 @@ h2 {
   text-align: center;
   color: #d47379;
   font-size: 35px;
-  letter-spacing: 5px;
+  letter-spacing: 8px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -79,4 +80,10 @@ h5 {
 
 #profile-picture {
   border-radius: 50%;
+}
+
+#tea,
+#weather-app {
+  margin: 20px 0 50px 0;
+  border: 5px solid white;
 }
