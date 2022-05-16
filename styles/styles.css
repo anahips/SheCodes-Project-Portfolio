@@ -59,7 +59,7 @@ h5 {
 }
 
 .portfolio-greeting {
-  padding: 50px 100px 300px 176px;
+  padding: 100px 100px 300px 176px;
   margin: 0;
 }
 
@@ -87,10 +87,90 @@ h5 {
 
 #profile-picture {
   border-radius: 50%;
+  padding: 50px;
 }
 
 #tea,
 #weather-app {
   margin: 20px 0 50px 0;
   border: 5px solid white;
+}
+
+@media (max-width: 540px) {
+  h1,
+  h4,
+  h5,
+  .contact {
+    text-align: center;
+  }
+
+  .portfolio-greeting {
+    padding: 0 20px 20px 20px !important;
+  }
+
+  #profile-picture {
+    display: none;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .navbar {
+    padding: 0 10px 0 0;
+    margin: 0 !important;
+  }
+
+  .navbar-brand img {
+    height: 75px !important;
+    width: 75px !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .portfolio-greeting {
+    padding: 0 20px 20px 40px;
+  }
+
+  .profile-photo {
+    margin: 0 0 30px 0;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  .navbar-brand img {
+    height: 75px !important;
+    width: 75px !important;
+  }
+
+  .navbar-nav {
+    font-size: 12px;
+  }
+
+  .contact {
+    margin-top: 20px;
+    font-size: 10px;
+  }
 }
