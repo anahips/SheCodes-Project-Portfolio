@@ -42,14 +42,10 @@ h5 {
   font-family: "Imprima", sans-serif;
 }
 
-#home-link:hover {
-  color: #d47379;
-}
-#projects-link:hover {
-  color: #d47379;
-}
-
-#contact-link:hover {
+#home-link:hover,
+#projects-link:hover,
+#contact-link:hover,
+#about-link:hover {
   color: #d47379;
 }
 
