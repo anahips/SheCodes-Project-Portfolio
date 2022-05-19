@@ -96,10 +96,9 @@ p {
   padding: 50px;
 }
 
-#tea,
-#weather-app {
-  margin: 20px 0 50px 0;
-  border: 5px solid white;
+.tea,
+.weather-app {
+  padding: 20px;
 }
 
 @media (max-width: 540px) {
@@ -148,10 +147,6 @@ p {
     font-size: 12px;
     padding: 15px;
     line-height: 40px;
-  }
-
-  footer {
-    margin: 20px 0;
   }
 }
 
