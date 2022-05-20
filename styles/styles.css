@@ -84,6 +84,13 @@ p {
   padding-left: 0;
 }
 
+.fa-html5,
+.fa-css3-alt,
+.fa-js {
+  color: #d47379;
+  padding: 2px;
+}
+
 .fa-instagram:hover,
 .fa-linkedin:hover,
 .fa-envelope:hover {
