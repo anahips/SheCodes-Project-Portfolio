@@ -43,6 +43,12 @@ p {
   padding: 10px 150px 40px 150px;
 }
 
+.teapic,
+.weatherpic {
+  border: 1px;
+  border-radius: 3px;
+}
+
 .logo {
   margin: 0;
   padding: 0;
@@ -52,11 +58,14 @@ p {
   font-family: "Imprima", sans-serif;
 }
 
+.igLink:hover,
+.linkedinLink:hover,
 #home-link:hover,
 #projects-link:hover,
 #contact-link:hover,
 #about-link:hover {
   color: #d47379;
+  transition: ease-in-out 2ms;
 }
 
 .landing-page-container {
@@ -71,6 +80,12 @@ p {
 
 .contact {
   margin-top: 60px;
+}
+
+.igLink,
+.linkedinLink {
+  text-decoration: none;
+  color: #393d3a;
 }
 
 .fa-instagram,
@@ -96,6 +111,7 @@ p {
 .fa-envelope:hover {
   color: #393d3a;
   opacity: 0.8;
+  transition: ease-in-out 2ms;
 }
 
 #profile-picture {
@@ -103,9 +119,9 @@ p {
   padding: 50px;
 }
 
-.tea,
-.weather-app {
-  padding: 20px;
+#tea,
+#weather-app {
+  padding: 15px 60px 60px 60px;
 }
 
 @media (max-width: 540px) {
