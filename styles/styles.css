@@ -35,7 +35,6 @@ h5 {
   font-family: "Imprima", sans-serif;
   line-height: 24px;
   letter-spacing: 2px;
-  margin-top: 40px;
 }
 
 p {
@@ -51,6 +50,17 @@ p {
 
 footer {
   margin-top: 100px;
+}
+
+footer p {
+  color: #393d3a;
+  opacity: 0.8;
+  font-size: 12px;
+}
+
+p #shecodes {
+  color: #d47379;
+  text-decoration: none;
 }
 
 .emailad {
@@ -134,7 +144,8 @@ footer {
 .emailad:hover,
 .fa-github:hover,
 .fa-linkedin:hover,
-.fa-envelope:hover {
+.fa-envelope:hover,
+#shecodes:hover {
   color: #393d3a;
   opacity: 0.8;
   transition: ease-in-out 2ms;
