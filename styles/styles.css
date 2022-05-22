@@ -45,7 +45,8 @@ p {
   font-family: "Imprima", sans-serif;
   line-height: 75px;
   text-align: center;
-  padding: 10px 150px 20px 150px;
+  padding: 10px 150px 5px 150px;
+  margin-bottom: 0;
 }
 
 footer {
@@ -76,7 +77,7 @@ footer {
 }
 
 .contactemail:hover,
-.igLink:hover,
+.gitLink:hover,
 .linkedinLink:hover,
 #home-link:hover,
 #projects-link:hover,
@@ -100,7 +101,7 @@ footer {
   margin-top: 60px;
 }
 
-.igLink,
+.gitLink,
 .linkedinLink {
   text-decoration: none;
   color: #393d3a;
@@ -112,14 +113,14 @@ footer {
   padding-bottom: 50px;
 }
 
-.fa-instagram,
+.fa-github,
 .fa-linkedin,
 .fa-envelope {
   color: #d47379;
   padding: 15px;
 }
 
-.fa-instagram {
+.fa-github {
   padding-left: 0;
 }
 
@@ -131,7 +132,7 @@ footer {
 }
 
 .emailad:hover,
-.fa-instagram:hover,
+.fa-github:hover,
 .fa-linkedin:hover,
 .fa-envelope:hover {
   color: #393d3a;
